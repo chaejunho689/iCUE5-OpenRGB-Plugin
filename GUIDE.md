@@ -93,9 +93,9 @@ git clone https://github.com/chaejunno689/iCUE5-OpenRGB-Plugin.git C:\workspace\
 
 ### 2-2. OpenRGB 설정
 
-1. OpenRGB 실행
+1. OpenRGB 설치 및 실행
 2. **Settings → General** : "Start at login", "Start minimized", "Start server" 모두 활성화
-3. **SDK Server 탭** → Start Server (포트 기본값 `6742` 유지)
+3. **SDK Server 탭** → Start Server (포트 기본값 `6742` 유지, IP주소를 127.0.0.1로 설정)
 4. **Devices 탭** → Corsair 기기가 있다면 비활성화 (iCUE와 충돌 방지)
 
 > OpenRGB는 iCUE보다 **먼저** 실행되어야 한다.
