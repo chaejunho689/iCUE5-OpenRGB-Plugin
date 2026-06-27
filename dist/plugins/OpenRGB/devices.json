@@ -40,7 +40,8 @@
 		"Views": [
 			{
 				"Image": "images/razer_fireflyv2pro/default/device_view.png.png",
-				"PolyGenerator": {"Zone": 0, "Rect": [1, 35, 99, 65], "Spacing": 1}
+				"PolyGenerator": {"Zone": 0, "Rect": [80, 118, 435, 85], "Spacing": 1},
+				 "_comment": "rect의 첫번째자리는 led박스의 가로 시작위치, 두번째는 세로 길이, 세번째는 좌우의길이 네번째는 세로의 시작위치"
 			}
 		]
 	},
