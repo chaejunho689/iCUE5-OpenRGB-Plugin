@@ -1,0 +1,51 @@
+[
+	{
+		"Name": "MSI MPG X570 GAMING PRO CARBON WIFI (MS-7B93)",
+		"Thumbnail": "images/motherboard/msi/thumbnail.png",
+		"Image": "images/motherboard/msi/promo.png",
+		"InheritDefault": false,
+		"Zones": [
+			{"Zone": "PIPE1"}
+		],
+		"Views": [
+			{
+				"Image": "images/motherboard/msi/device_view.png",
+				"PolyGenerator": {"Zone": "PIPE1", "Rect": [35, 20, 75, 80], "Spacing": 5}
+			}
+		]
+	},
+	{
+		"Name": "KFA2 GeForce RTX 2070 OC",
+		"Thumbnail": "images/gpu/default/thumbnail.png",
+		"Image": "images/gpu/default/promo.png",
+		"InheritDefault": false,
+		"Zones": [
+			{"Zone": "GPU"}
+		],
+		"Views": [
+			{
+				"Image": "images/gpu/default/device_view.png",
+				"PolyGenerator": {"Zone": "GPU", "Rect": [45, 25, 70, 85], "Spacing": 5}
+			}
+		]
+	},
+	{
+		"Name": "Razer Firefly V2 Pro",
+		"Thumbnail": "images/gpu/default/thumbnail.png",
+		"Image": "images/gpu/default/promo.png",
+		"InheritDefault": false,
+		"Zones": [
+			{"Zone": 0}
+		],
+		"Views": [
+			{
+				"Image": "images/razer_fireflyv2pro/default/device_view.png.png",
+				"PolyGenerator": {"Zone": 0, "Rect": [5, 5, 95, 95], "Spacing": 5}
+			}
+		]
+	},
+	{
+		"Name": "Lian Li Strimer L Connect",
+		"InheritDefault": true
+	}
+]
